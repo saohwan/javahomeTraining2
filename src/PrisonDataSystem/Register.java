@@ -46,7 +46,7 @@ class BasicInformation {
         jailTime = j;
     }
 
-    //인스턴스 메소드
+    //인스턴스 메소드 (주체 객체가 필요함 . bi.toInfo!!)
     String toInfo() {
         return String.format("**** 수감자 정보 **** \n 이름 : %s \n 나이 : %d \n 지역 : %s \n 죄목 : %s \n 수감시간 : %d \n******************** ", name, age, area ,aCharge,jailTime);
     }
